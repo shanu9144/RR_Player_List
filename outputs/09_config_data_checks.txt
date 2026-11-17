@@ -1,0 +1,94 @@
+Latest match date: 2026-11-01
+Most legal balls in any innings: 120 (innings with exactly 120: 59.1%)
+Overs with exactly 6 legal balls, by how extras are coded (higher = better):
+  wide + Overstep + other (used)   98.21%
+  wide + Overstep                  97.47%
+  wide + other                     96.56%
+  wide only                        95.85%
+Dismissal types: {'Caught': 7549, 'Bowled': 1772, 'LBW': 709, 'RunOut': 598, 'Stump': 214, 'Hit Wicket': 17, 'Retire Out': 6, 'Obstracting the field': 2, 'Obstructing the field': 1}
+Share of balls by competition weight: 0.4: 1.7%, 0.6: 7.7%, 1.0: 90.6%
+Pressure score at percentiles: 50%: 0.72, 75%: 1.26, 80%: 1.44, 85%: 1.68, 90%: 2.06, 95%: 2.88
+Spread (st.dev) of run value per pressure ball: batters 2.79, bowlers 2.73
+
+bat: 119 eligible, median pressure balls 193; correlation between the four rating parts:
+               c_impact  c_skill  c_delta  c_consistency
+c_impact           1.00     0.76     0.30           0.57
+c_skill            0.76     1.00     0.52           0.72
+c_delta            0.30     0.52     1.00           0.36
+c_consistency      0.57     0.72     0.36           1.00
+
+Change ONE setting - bat (base = main settings):
+                                       top10_kept  rank_agreement_tau  n_eligible
+change                                                                           
+pressure = top 30%                            5.0                0.72       157.0
+pressure = top 25%                            7.0                0.77       143.0
+pressure = top 15%                            5.0                0.72        93.0
+pressure = top 10%                            4.0                0.64        53.0
+rule-based pressure (top 20%)                 3.0                0.31       126.0
+no recency weight                             8.0                0.78       119.0
+no competition or recency weights             7.0                0.78       119.0
+recency half-life 1 yr                        9.0                0.86       119.0
+recency half-life 3 yr                       10.0                0.93       119.0
+recency half-life 5 yr                        9.0                0.87       119.0
+weaker-nation weights halved                  9.0                0.98       119.0
+all competitions equal (recency kept)        10.0                0.98       119.0
+rating weights: equal 25% each               10.0                0.97       119.0
+rating weights: no consistency part           8.0                0.87       119.0
+rating weights: impact only                   8.0                0.66       119.0
+min balls = 50                                8.0                0.97       189.0
+min balls = 150                               7.0                0.98        79.0
+min balls = 200                               6.0                0.95        57.0
+min matches = 5                              10.0                1.00       119.0
+min matches = 10                             10.0                1.00       119.0
+min matches = 12                             10.0                1.00       119.0
+bootstrap seed = 1                           10.0                0.99       119.0
+bootstrap seed = 7                            9.0                0.99       119.0
+bootstrap seed = 123                          9.0                0.99       119.0
+
+bowl: 123 eligible, median pressure balls 196; correlation between the four rating parts:
+               c_impact  c_skill  c_delta  c_consistency
+c_impact           1.00     0.74     0.25           0.56
+c_skill            0.74     1.00     0.33           0.74
+c_delta            0.25     0.33     1.00           0.23
+c_consistency      0.56     0.74     0.23           1.00
+
+Change ONE setting - bowl (base = main settings):
+                                       top10_kept  rank_agreement_tau  n_eligible
+change                                                                           
+pressure = top 30%                            7.0                0.69       173.0
+pressure = top 25%                            7.0                0.76       156.0
+pressure = top 15%                            4.0                0.70        93.0
+pressure = top 10%                            4.0                0.62        60.0
+rule-based pressure (top 20%)                 3.0                0.13       127.0
+no recency weight                             5.0                0.76       123.0
+no competition or recency weights             5.0                0.75       123.0
+recency half-life 1 yr                        9.0                0.84       123.0
+recency half-life 3 yr                        8.0                0.93       123.0
+recency half-life 5 yr                        8.0                0.86       123.0
+weaker-nation weights halved                  9.0                0.96       123.0
+all competitions equal (recency kept)         9.0                0.96       123.0
+rating weights: equal 25% each               10.0                0.97       123.0
+rating weights: no consistency part           9.0                0.87       123.0
+rating weights: impact only                   8.0                0.63       123.0
+min balls = 50                               10.0                0.97       206.0
+min balls = 150                               8.0                0.98        86.0
+min balls = 200                               6.0                0.98        60.0
+min matches = 5                              10.0                1.00       123.0
+min matches = 10                             10.0                1.00       123.0
+min matches = 12                             10.0                1.00       123.0
+bootstrap seed = 1                            9.0                0.99       123.0
+bootstrap seed = 7                            9.0                0.99       123.0
+bootstrap seed = 123                          9.0                0.99       123.0
+
+Eligible players by minimum balls and matches:
+role  min_balls  min_matches=5  min_matches=8  min_matches=10
+ bat         50            192            189             180
+ bat         75            148            148             147
+ bat        100            119            119             119
+ bat        150             79             79              79
+ bat        200             57             57              57
+bowl         50            209            206             193
+bowl         75            160            160             159
+bowl        100            123            123             123
+bowl        150             86             86              86
+bowl        200             60             60              60

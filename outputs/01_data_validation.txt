@@ -1,0 +1,7 @@
+Balls (innings 1-2): 200,961
+Matches with balls: 867
+Matches with both innings and a recorded winner: 842
+Winner reconstructed correctly (ties excluded): 99.76%
+Tied (super-over decided): 9
+Matches without winner (no result/abandoned/missing): 41
+Legal balls per completed over == 6: 98.21%

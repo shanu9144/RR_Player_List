@@ -1,0 +1,9 @@
+changed,scenario,kendall_tau
+pctl,li|0.75|100|full|base,0.7729668138441819
+min_balls,li|0.8|75|full|base,0.9877510326164365
+weights,li|0.8|100|full|impact_heavy,0.9008688221051133
+weights,li|0.8|100|full|skill_heavy,0.9304942315909416
+weight_mode,li|0.8|100|comp_only|base,0.7820823244552059
+min_balls,li|0.8|150|full|base,0.9844206426484907
+pctl,li|0.85|100|full|base,0.7199625993454885
+definition,rule|0.8|100|full|base,0.30806572068707994

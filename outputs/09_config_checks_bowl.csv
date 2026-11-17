@@ -1,0 +1,25 @@
+change,top10_kept,rank_agreement_tau,n_eligible
+pressure = top 30%,7.0,0.69,173.0
+pressure = top 25%,7.0,0.76,156.0
+pressure = top 15%,4.0,0.7,93.0
+pressure = top 10%,4.0,0.62,60.0
+rule-based pressure (top 20%),3.0,0.13,127.0
+no recency weight,5.0,0.76,123.0
+no competition or recency weights,5.0,0.75,123.0
+recency half-life 1 yr,9.0,0.84,123.0
+recency half-life 3 yr,8.0,0.93,123.0
+recency half-life 5 yr,8.0,0.86,123.0
+weaker-nation weights halved,9.0,0.96,123.0
+all competitions equal (recency kept),9.0,0.96,123.0
+rating weights: equal 25% each,10.0,0.97,123.0
+rating weights: no consistency part,9.0,0.87,123.0
+rating weights: impact only,8.0,0.63,123.0
+min balls = 50,10.0,0.97,206.0
+min balls = 150,8.0,0.98,86.0
+min balls = 200,6.0,0.98,60.0
+min matches = 5,10.0,1.0,123.0
+min matches = 10,10.0,1.0,123.0
+min matches = 12,10.0,1.0,123.0
+bootstrap seed = 1,9.0,0.99,123.0
+bootstrap seed = 7,9.0,0.99,123.0
+bootstrap seed = 123,9.0,0.99,123.0

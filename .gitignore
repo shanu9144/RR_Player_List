@@ -1,0 +1,25 @@
+# Python bytecode and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Notebook and tool caches
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Operating-system and archive metadata
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Rebuildable pipeline cache and local log
+outputs/cache_scored_balls.pkl
+outputs/run_log.txt
+
+# Temporary files
+*.tmp
+*.bak
